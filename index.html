@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>DOM Manipulation</title>
+  <link rel="stylesheet" href="style.css" />
+  <script type="module" src="./app.js"></script>
+</head>
+
+<body>
+  <div class="poll-container">
+    <h1>Polls</h1>
+    <div class="poll-action shadow">
+      <input type="text" name="" id="poll-input" placeholder="Enter a new pull" class="input shadow rounded" />
+      <button class="btn btn-primary shadow rounded uppercase">Add</button>
+    </div>
+    <div class="poll-list shadow"></div>
+    <div class="clear">
+      <div class="condition">
+          <span class="length"></span>
+          <span>item</span>
+      </div>
+      
+      <button class="Clear-All">ClearAll</button>
+    </div>
+
+    <script>
+      console.log(document.body.childElementCount);
+    </script>
+  </div>
+
+</body>
+
+</html>
